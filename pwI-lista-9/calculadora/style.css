@@ -7,7 +7,7 @@
 }
 
 body {
-    background:#3e3e3e;
+    background:#181818;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -15,7 +15,7 @@ body {
 }
 
 .calculator {
-    background-color: #1f1f1f;
+    background-color: #474747;
     padding: 12px;
     border-radius: 10px;
     box-shadow: 0 0 20px rgba(36, 36, 36, 0.5);
@@ -43,7 +43,7 @@ body {
     padding: 20px;
     border: none;
     border-radius: 10px;
-    background-color: #612121;
+    background-color: #2c2c2c;
     color: white;
     font-size: 1.2rem;
     cursor: pointer;
@@ -51,11 +51,11 @@ body {
 }
 
 .buttons button:hover {
-    background-color: #521010;
+    background-color: #181818;
 }
 
 .buttons .equal {
-    grid-column: span 2;
+    grid-column: span 3;
     background-color: #f0a90f;
     color: #13072d;
     font-weight: bold;
@@ -66,9 +66,9 @@ body {
 }
 
 .buttons .operator {
-    background-color: #301b52;
+    background-color: #f0a90f;
 }
 
 .buttons .operator:hover {
-    background-color: #160b0b;
+    background-color: #cf820e;
 }
